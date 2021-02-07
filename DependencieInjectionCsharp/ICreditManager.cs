@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DependencieInjectionCsharp
+namespace  DependencieInjectionCsharp
 {
     public interface ICreditManager
     {
