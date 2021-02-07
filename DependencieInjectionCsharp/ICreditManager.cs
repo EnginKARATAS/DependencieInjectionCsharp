@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DependencieInjectionCsharp
 {
-    interface ICreditManager
+    public interface ICreditManager
     {
         public void BasvuruYap();
     }
