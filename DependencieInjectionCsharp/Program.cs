@@ -14,7 +14,8 @@ namespace DependencieInjectionCsharp
 
             BasvuruManager basvuruManager = new BasvuruManager();
 
-            basvuruManager.BasvuruYap(ihtiyacKredisi);
+            //basvuruManager.BasvuruYap(ihtiyacKredisi);
+            basvuruManager.KrediGetir(new List<ICreditManager> { ihtiyacKredisi, tasitKredisi });
         }
     }
 }

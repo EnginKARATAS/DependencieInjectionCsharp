@@ -10,5 +10,13 @@ namespace DependencieInjectionCsharp
         {
             kredi.BasvuruYap();
         }
+        public void KrediGetir(List<ICreditManager> credits)
+        {
+            foreach (var item in credits)
+            {
+                item.BasvuruYap();
+            }
+
+        }
     }
 }

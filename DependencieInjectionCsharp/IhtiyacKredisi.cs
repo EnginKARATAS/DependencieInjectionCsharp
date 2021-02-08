@@ -10,5 +10,6 @@ namespace DependencieInjectionCsharp
         {
             Console.WriteLine("ihtiyaç kredisi basvuru yap fonksyonundan hesaplandı.");
         }
+        
     }
 }
